@@ -1,0 +1,232 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    
+    <main id="main-doc">
+      
+      <nav id="navbar">
+        <header id="heading">History of Classical Music</header>
+        
+        <a class="nav-link" href="#Origins_of_Classical_Music">Origins of Classical Music</a>
+        <a class="nav-link" href="#Medieval_Period">Medieval Period</a>
+        <a class="nav-link" href="#Renaissance_Period">Renaissance Period</a>
+        <a class="nav-link" href="#Baroque_Period">Baroque Period</a>
+        <a class="nav-link" href="#Classical_Period">Classical Period</a>
+        <a class="nav-link" href="#Romantic_Period">Romantic Period</a>
+        <a class="nav-link" href="#Nationalism_in_Classical_Music">Nationalism in Classical Music</a>
+        <a class="nav-link" href="#Impressionism_in_Music">Impressionism in Music</a>
+        <a class="nav-link" href="#20th_Century_and_Modern_Classical_Music">20th Century and Modern Classical Music</a>
+        <a class="nav-link" href="#Impact_of_Classical_Music_on_Film_Scores">Impact of Classical Music on Film Scores</a>
+        <a class="nav-link" href="#The_Role_of_Technology_in_Classical_Music">The Role of Technology in Classical Music</a>
+        <a class="nav-link" href="#Legacy_and_Influence_of_Classical_Music">Legacy and Influence of Classical Music</a>
+      </nav>
+      <section class="main-section" id="Origins_of_Classical_Music">
+        <header>Origins of Classical Music</header>
+        <p>Classical music traces its roots to ancient civilizations, particularly Greece and Rome, where music played a vital role in religious and civic life. Ancient Greeks developed theories of harmony, rhythm, and scales that laid the groundwork for Western music theory. Instruments like the lyre and aulos were used in various ceremonies, and music was often connected with poetry and drama. The Roman Empire continued these traditions, incorporating music into their vast cultural framework, though much of this early music has been lost to time.</p>
+        <p>The Pythagorean tuning system is based on pure perfect fifths. The frequency ratio of a perfect fifth is represented as <code>3:2</code>.</p>
+
+      </section>
+      <section class="main-section" id="Medieval_Period">
+        <header>Medieval Period</header>
+        <p>The Medieval period marks the beginning of Western classical music tradition. During this time, Gregorian chant, a form of plainchant, became the dominant form of sacred music in the Christian church. This era also saw the development of polyphony, where multiple independent melody lines were sung simultaneously. The Notre Dame School in Paris was particularly influential, with composers like Léonin and Pérotin pioneering early polyphonic techniques. Musical notation began to develop, allowing for the preservation and dissemination of music.</p>
+        <p>Early musical notation, known as neumes, served as memory aids for singers and evolved into the modern notation system, such as <code>do-re-mi</code>.
+</p>
+      </section>
+      <section class="main-section" id="Renaissance_Period">
+        <header>Renaissance Period</header>
+        <p>The Renaissance was a period of cultural rebirth, and music was no exception. This era saw the rise of choral music, with composers like Josquin des Prez and Giovanni Pierluigi da Palestrina leading the way. The invention of the printing press allowed music to be distributed more widely, leading to a greater exchange of ideas across Europe. Secular music also flourished, with madrigals and instrumental dances becoming popular. The use of imitation and complex counterpoint became hallmarks of the period's style.</p>
+        <p>In Baroque music, ornamentation was common, including techniques like <code>trills</code> and <code>appoggiaturas</code>.
+</p>
+      </section>
+      <section class="main-section" id="Baroque_Period">
+        <header>Baroque Period</header>
+
+<p>The Baroque period was characterized by dramatic, expressive music that sought to evoke emotion and grandeur. This era saw the birth of opera and the development of instrumental music. Key features of Baroque music include:</p>
+<ul>
+<li><u>Basso Continuo</u>: A continuous bass line that provided harmonic support.</li>
+<li><u>Ornamentation</u>: Elaborate musical flourishes added to the melody.</li>
+<li><u>Contrast</u>: Strong contrasts in texture, dynamics, and tempo.</li>
+<li>Genres:</li>
+  <ul><li><i>Concerto</i>: A composition for a solo instrument or instruments accompanied by an orchestra.</li>
+  <li><i>Sonata</i>: A composition for one or more solo instruments, typically with multiple movements.</li>
+  <li><i>Suite</i>: A set of instrumental compositions, often based on dance forms.</li></ul></ul>
+
+<p>For example, Johann Sebastian Bach, George Frideric Handel, and Antonio Vivaldi were influential composers during this time. Baroque music is also known for its use of <code>basso continuo</code> and elaborate <code>ornamentation</code>, as well as for introducing new musical forms like the <code>concerto</code> and <code>sonata</code>.</p>
+      </section>
+      <section class="main-section" id="Classical_Period">
+        <header>Classical Period</header>
+        <p>The Classical period emphasized clarity, balance, and formality, reacting against the complexity of the Baroque. This era saw the refinement of the sonata-allegro form, the development of the symphony, and the evolution of the string quartet. Composers like Wolfgang Amadeus Mozart, Ludwig van Beethoven, and Joseph Haydn were central figures, each contributing to the era's distinct style. The Classical period valued elegance and symmetry, with music designed to appeal to both the intellect and the emotions.</p>
+      </section>
+      <section class="main-section" id="Romantic_Period">
+        <header>Romantic Period</header>
+        <p>The Romantic period was marked by a focus on emotion, individualism, and expression. Composers sought to push the boundaries of form and harmony to convey deep feelings and tell stories through music. This era produced some of the most beloved works in the classical repertoire, including those by Franz Schubert, Richard Wagner, and Pyotr Ilyich Tchaikovsky. Program music, which tells a story or paints a scene, became popular, as did the use of expanded orchestras and more dramatic contrasts in dynamics and tempo.</p>
+      </section>
+      <section class="main-section" id="Nationalism_in_Classical_Music">
+        <header>Nationalism in Classical Music</header>
+        <p>During the 19th century, many composers began to incorporate elements of their national identity into their music, leading to the rise of musical nationalism. This movement sought to celebrate the unique cultural heritage of each country through the use of folk tunes, traditional dances, and regional stories. Composers like Frédéric Chopin in Poland, Edvard Grieg in Norway, and Antonín Dvořák in the Czech lands were key figures in this movement, creating works that resonated with their national identities and contributed to the broader Romantic tradition.</p>
+      </section>
+      <section class="main-section" id="Impressionism_in_Music">
+        <header>Impressionism in Music</header>
+        <p>Impressionism in music emerged at the end of the 19th century as a reaction against the formal structures of the Classical and Romantic periods. Inspired by the visual arts, composers like Claude Debussy and Maurice Ravel sought to create music that evoked mood and atmosphere rather than telling a specific story. This style is characterized by the use of unconventional scales (such as the whole-tone scale), ambiguous harmonies, and a focus on tone color and texture. Impressionist music often creates a sense of fluidity and ambiguity, mirroring the shimmering light and color of Impressionist paintings.</p>
+      </section>
+      <section class="main-section" id="20th_Century_and_Modern_Classical_Music">
+        <header>20th Century and Modern Classical Music</header>
+        <p>The 20th century was a period of tremendous experimentation and innovation in classical music. Composers broke away from traditional tonality, exploring new harmonic languages and forms. Atonality, pioneered by Arnold Schoenberg, rejected the traditional system of keys, leading to the development of serialism. Meanwhile, Igor Stravinsky’s works, like The Rite of Spring, challenged audiences with their rhythmic complexity and dissonance. John Cage and other avant-garde composers pushed the boundaries even further, exploring concepts like chance music and the use of non-traditional instruments.</p>
+        <p>Schoenberg's method of composing with <code>atonality</code> marked a departure from traditional tonal music.
+</p>
+      </section>
+      <section class="main-section" id="Impact_of_Classical_Music_on_Film_Scores">
+        <header>Impact of Classical Music on Film Scores</header>
+        <p>Classical music has had a profound influence on the development of film scores, with many composers drawing inspiration from classical traditions. The emotional power of orchestral music has made it a staple in cinema, where it is used to enhance storytelling and evoke specific moods. Composers like John Williams, known for his scores for Star Wars, Indiana Jones, and Harry Potter, have created music that is deeply rooted in the classical tradition, while others like Hans Zimmer have blended classical elements with modern technology to create innovative soundscapes.</p>
+      </section>
+      <section class="main-section" id="The_Role_of_Technology_in_Classical_Music">
+        <header>The Role of Technology in Classical Music</header>
+        <p>Technology has played a significant role in the evolution and preservation of classical music. The invention of recording technology in the late 19th century allowed performances to be captured and shared with a wider audience, preserving the interpretations of great artists for posterity. The development of electronic instruments and digital music production has also expanded the possibilities for composers, leading to new genres and styles within the classical tradition. Today, streaming services and online platforms have made classical music more accessible than ever, reaching audiences across the globe.</p>
+      </section>
+      <section class="main-section" id="Legacy_and_Influence_of_Classical_Music">
+        <header>Legacy and Influence of Classical Music</header>
+        <p>Classical music's influence extends far beyond the concert hall, shaping many aspects of modern culture. Its principles of harmony, form, and expression have influenced countless genres, including jazz, rock, and film music. Composers like Beethoven and Mozart have become cultural icons, their works continuing to inspire new generations of musicians and listeners. The enduring popularity of classical music, from symphonies and operas to chamber music and solo works, speaks to its timeless appeal and its ability to communicate profound human emotions across centuries and cultures.</p>
+      </section>
+      
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+  display: flex;
+  min-height: 100vh;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+position: relative; 
+top: 25px;
+}
+
+#navbar {
+  width: 20%;
+  background-color: #333;
+  padding: 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+#navbar::-webkit-scrollbar {
+  display: none;
+}
+
+#heading {
+  font-size: 2.5em; 
+  color: #ff9900;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: bold; 
+}
+
+#navbar a.nav-link {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+
+#navbar a.nav-link:hover {
+  color: #ff9900;
+}
+
+.main-section {
+  margin-left: 20%;
+  padding: 20px;
+  width: 80%;
+}
+
+.main-section header {
+  font-size: 2em; 
+  color: #333;
+  border-bottom: 2px solid #ff9900;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.main-section p, .main-section ul {
+  margin-bottom: 20px;
+}
+
+.main-section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+code {
+  background-color: #333;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+@media (max-width: 768px) {
+  #navbar {
+    width: 100%;
+    height: auto;
+    position: static; 
+    margin-bottom: 20px;
+  }
+
+  .main-section {
+    margin-left: 0;
+    width: 100%;
+    padding: 0; 
+  }
+}
+
+@media (max-width: 480px) {
+  #navbar {
+    padding: 10px;
+  }
+
+  #heading {
+    font-size: 1.2em; 
+  }
+
+  #navbar a.nav-link {
+    font-size: 0.9em;
+  }
+
+  .main-section header {
+    font-size: 1.5em;
+  }
+}
+
+
+** end of undefined **
+

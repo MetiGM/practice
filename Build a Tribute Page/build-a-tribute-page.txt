@@ -1,0 +1,141 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css">
+  </head> 
+  <body>
+    <main id="main">
+      <div id="title">
+      <h1>Tribute to Jesus Christ: The Savior of Humanity</h1>
+      <p>The Servant King: He who knelt to serve, lifting countless hearts with love</p>
+</div>
+      <figure id="img-div">
+        <img id="image" src="https://havenlight.com/cdn/shop/products/YK1010178.jpg?v=1697811367&width=800" >
+        <figcaption id="img-caption" class="verse">"As I have done for you, so you must do for one another." - John 13:15</figcaption>
+      </figure>
+
+      <div id="tribute-info">
+        <h2 class="h2">Introduction</h2>
+<p class="verse">"For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life." - John 3:16</p>
+
+<p class="par">Jesus Christ is the central figure of Christianity, believed by Christians to be the Son of God and the Savior of humanity. His life, death, and resurrection form the foundation of Christian faith, offering hope and salvation to all who believe.</p>
+
+<h2 class="h2">Key Moments in Jesus' Life and Ministry</h2>
+<h3 class="h3">Birth of Jesus</h3>
+
+<p class="par">Born in Bethlehem to the Virgin Mary, Jesus' birth fulfilled ancient prophecies and was celebrated by angels and shepherds alike. The wise men from the East also came to worship Him, bringing gifts of gold, frankincense, and myrrh.</p>
+<h3 class="h3">Baptism by John the Baptist</h3>
+
+<p class="par">At around the age of 30, Jesus was baptized by John the Baptist in the Jordan River. The heavens opened, and the Spirit of God descended like a dove, affirming His divine mission.</p>
+<h3 class="h3">The Teachings of Jesus</h3>
+
+<p class="par">Jesus traveled through towns and villages, teaching about love, forgiveness, and the Kingdom of God. He used parables to convey profound spiritual truths and performed miracles, healing the sick, raising the dead, and feeding the multitudes.</p>
+<h3 class="h3">The Crucifixion</h3>
+
+<p class="par">Jesus was crucified under Roman authority, a sacrifice He willingly made to atone for the sins of humanity. His death on the cross is a powerful symbol of God's love and grace.</p>
+<h3 class="h3">The Resurrection</h3>
+
+<p class="par">Three days after His crucifixion, Jesus rose from the dead, conquering sin and death. His resurrection is celebrated by Christians worldwide as the ultimate victory and the foundation of eternal life.</p>
+<h2 class="h2">Jesus' Impact on the World</h2>
+<h3 class="h3">The Greatest Commandment</h3>
+
+<p class="par">Jesus taught that the greatest commandments are to love God with all your heart, soul, and mind, and to love your neighbor as yourself. His teachings on love, humility, and compassion have inspired countless generations.</p>
+<h3 class="h3">Christianity: A Global Faith</h3>
+
+<p class="par">Following Jesus' ascension to heaven, His disciples spread His teachings across the world. Today, Christianity is one of the largest religions globally, with billions of followers who strive to live according to His teachings.</p>
+<h3 class="h3">The Legacy of Jesus</h3>
+
+<p class="par">Jesus' influence extends beyond religion. His teachings have shaped art, culture, laws, and ethics throughout history. His message of love, forgiveness, and redemption continues to inspire and transform lives.</p>
+<h3 class="h3">A Message of Hope</h3>
+<p class="verse">"I am the way, the truth, and the life. No one comes to the Father except through me." - John 14:6</p>
+
+<p class="par">Jesus Christ offers hope, peace, and eternal life to all who believe in Him. His life and teachings are a beacon of light in a world that often seems dark and troubled. He invites everyone to come to Him and experience the fullness of life that only He can provide.</p>
+
+<h2 class="h2">Conclusion</h2>
+<p class="par">Jesus Christ's life and legacy are immeasurable. He is not just a historical figure but the living Savior who continues to change hearts and lives today. Whether you are a believer or someone seeking to understand more about Him, Jesus' message of love, grace, and salvation is available to all.</p>
+
+<p class="last">If you want to know more about the story of Jesus, visit <a id="tribute-link" target="_blank" href="https://gospelway.com/god/jesus-story.php">Gospel Way site.</a>
+      </div>
+
+        
+        
+    </main>
+
+  </body> 
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Your img element should have a display of block.
+Your #image should have a max-width of 100%.
+Your #image should be centered within its parent. */
+body {
+  margin:0 auto;
+  padding: 10px;
+  display: flex;
+background-color: #ff23;
+}
+#main {
+background-color: #ff23;
+  height: fit-content;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 30px;
+  /* From https://css.glass */
+background: rgba(254, 247, 154, 0.2);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(254, 247, 154, 0.3);
+}
+#title {
+  text-align: center;
+  align-items: center;
+} 
+#image{
+  height: auto; 
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  object-fit: contain; 
+  } 
+#img-div {
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+#tribute-info {
+  margin: 10px;
+  padding: 10px;
+}
+.h2 {
+  text-align: center;
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+.h3 {
+  font-family:  cursive;
+}
+.verse {
+  font-style: italic;
+  color: navy;
+}
+.par {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+}
+.last {
+  font-weight:800;
+  font-size: 20px;
+  text-align: center;
+  color: grey
+}
+
+** end of undefined **
+

@@ -1,0 +1,222 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Pop Culture Choices Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Pop Culture Choices Survey</h1>
+    <p id="description">Share your pop culture faves! This quick survey covers your top picks in music, TV, movies, and more. Let’s see what’s trending!</p>
+    <form id="survey-form">
+
+      <fieldset id="info">
+      <label id="name-label" for="name">Name: <input id="name" type="text" placeholder="What’s your name?" required minlength="4" maxlength="15"/></label>
+      <label id="email-label" for="email">Email: <input type="email" required id="email" placeholder="What’s your email address?" /></label>
+      <label id="number-label" for="number">Age: <input type="number" required id="number" min="10" max="100"  placeholder=" How old are you?" />
+      </label>
+      </fieldset>
+
+      <fieldset id="music">
+        <label for="music-genre"> What’s your <em>favorite</em> music genre?
+          <select id="dropdown">
+            <option value="">Select an option</option>
+            <option value="1">Pop</option>
+            <option value="2">Jazz</option>
+            <option value="3">EDM</option>
+            <option value="4">Hiphop</option>
+            <option value="5">Classical</option>
+            <option value="6">Rock</option>
+            <option value="7">Country</option>
+            <option value="8">Other</option>
+          </select>
+          
+        </label>
+      </fieldset>
+
+      <fieldset id="streaming-service">
+        <legend>Which streaming service do you use the <strong>most</strong>?</legend>
+          <label for="netflix"><input id="netflix" type="radio" class="inline" value="1" checked name="streaming" />Netflix</label>
+          <label for="hulu"><input id="hulu" type="radio" value="2"  class="inline" name="streaming" />Hulu</label>
+          <label for="prime"><input id="prime" type="radio" name="streaming" class="inline" value="3" />Amazon Prime</label>
+          <label for="utube"><input id="utube" type="radio" name="streaming" class="inline" value="4" />Youtube</label>
+          <label for="disney"><input id="disney" type="radio"  class="inline" name="streaming" value="5" />Disney +</label>
+          <label for="hbo"><input id="hbo" type="radio" name="streaming" class="inline" value="6" />HBO Max</label>
+        
+      </fieldset>
+
+      <fieldset id="shows">
+        <legend> Which of these TV shows are you currently watching or planning to watch? (Select all that apply)</legend>
+         <label for="st"><input id="st" type="checkbox" value="1" />Stranger Things</label>
+          <label for="tb"><input id="tb" type="checkbox" value="2"/>The Boys</label>
+          <label for="b"><input id="b" type="checkbox" value="3"/>Bridgerton</label>
+          <label for="bb"><input id="bb" type="checkbox" value="4"/>Breaking Bad</label>
+          <label for="tc"><input id="tc" type="checkbox" value="5"/>The Crown</label>
+          <label for="o"><input id="o" type="checkbox" value="6"/>Other
+        </label>
+      </fieldset>
+
+      <fieldset id="genres">
+        <legend>What’s your <strong>favorite</strong> type of movie?</legend>
+        <label for="a"><input id="a" type="radio" value="1" name="movie" />Action/Adventure
+</label>
+        <label for="c"><input id="c" type="radio"  value="2" name="movie" />Comedy
+</label>
+        <label for="h"><input id="h" type="radio" value="3" name="movie" />Horror/Thriller
+</label>
+<label for="r"><input id="r" type="radio" value="4" name="movie" />Romance
+</label>
+        <label for="dra"><input id="dra" type="radio" value="5" name="movie" />Drama
+</label>
+        <label for="s"><input id="s" type="radio" value="6" name="movie" />Sci-Fi/Fantasy
+</label>
+        <label for="doc"><input id="doc" type="radio" value="6" name="movie" />Documentary</label>
+      </fieldset>
+
+      <fieldset id="crush">
+        <label>
+          Who’s your celebrity crush?<textarea></textarea>
+        </label>
+      </fieldset>
+
+      <fieldset id="pop">
+        <label>Which decade do you think had the best pop culture?
+          <select>
+            <option value="">Select a decade</option>
+            <option value="1">1980s</option>
+            <option value="2">1990s</option>
+            <option value="3">2000s</option>
+            <option value="4">2010s</option>
+            <option value="5">Now</option>
+            
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset id="add">
+        <label>Anything else you’d like to share about your pop culture preferences? <textarea></textarea>
+        </label>
+      </fieldset>
+
+  <input id="submit" value="Submit" type="submit">
+    </form>
+  </body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 90vh;
+  margin: 0;
+  background-color: beige;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color:black;
+  vertical-align: middle;
+}
+
+h1,
+p {
+  text-align: center;
+  margin: 1em auto;
+}
+
+p {
+  max-width: 500px;
+  min-width: 300px;
+  margin: 20px auto;
+}
+
+form {
+  width: 70%;
+  max-width: 800px;
+  min-width: 300px;
+  margin: 0px auto;
+  padding: 2em;
+  background-color: white;
+}
+
+fieldset {
+  border: none;
+  padding: 1.5rem 0;
+  margin-bottom: 1rem;
+}
+
+
+
+legend {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin: 0.8rem 0;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+select {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 0.3rem;
+}
+
+textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+.inline {
+  display: inline-block;
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 30%;
+  margin: 2em auto;
+  padding: 0.8rem;
+  font-size: 1.1rem;
+  color: white;
+  background-color: #0073e6;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 115, 230, 0.4);
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #005bb5;
+}
+
+
+
+
+
+
+
+
+** end of undefined **
+

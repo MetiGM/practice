@@ -1,0 +1,70 @@
+body {
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    background-color: #ff23;
+}
+
+#main {
+    background-color: #ff23;
+    height: fit-content;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    /* From https://css.glass */
+    background: rgba(254, 247, 154, 0.2);
+
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(254, 247, 154, 0.3);
+}
+
+#title {
+    text-align: center;
+    align-items: center;
+}
+
+#image {
+    height: auto;
+    max-width: 25%;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+#img-div {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#tribute-info {
+    margin: 10px;
+    padding: 10px;
+}
+
+.h2 {
+    text-align: center;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+.h3 {
+    font-family: cursive;
+}
+
+.verse {
+    font-style: italic;
+    color: navy;
+}
+
+.par {
+    font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+.last {
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    color: grey
+}
